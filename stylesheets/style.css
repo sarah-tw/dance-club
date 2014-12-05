@@ -1,0 +1,632 @@
+/* line 5, ../../../../.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("fonts/icomoon.eot?2o6c0r");
+  src: url("fonts/icomoon.eot?#iefix2o6c0r") format("embedded-opentype"), url("fonts/icomoon.woff?2o6c0r") format("woff"), url("fonts/icomoon.ttf?2o6c0r") format("truetype"), url("fonts/icomoon.svg?2o6c0r#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 12, ../icon.scss */
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 26, ../icon.scss */
+.icon-pencil:before {
+  content: "\e601";
+}
+
+/* line 29, ../icon.scss */
+.icon-quill:before {
+  content: "\e60c";
+}
+
+/* line 32, ../icon.scss */
+.icon-library:before {
+  content: "\e604";
+}
+
+/* line 35, ../icon.scss */
+.icon-tag:before {
+  content: "\e605";
+}
+
+/* line 38, ../icon.scss */
+.icon-address-book:before {
+  content: "\e600";
+}
+
+/* line 41, ../icon.scss */
+.icon-user:before {
+  content: "\e606";
+}
+
+/* line 44, ../icon.scss */
+.icon-users:before {
+  content: "\e602";
+}
+
+/* line 47, ../icon.scss */
+.icon-quotes-left:before {
+  content: "\e603";
+}
+
+/* line 50, ../icon.scss */
+.icon-search:before {
+  content: "\e60f";
+}
+
+/* line 53, ../icon.scss */
+.icon-expand:before {
+  content: "\e610";
+}
+
+/* line 56, ../icon.scss */
+.icon-star:before {
+  content: "\e611";
+}
+
+/* line 59, ../icon.scss */
+.icon-thumbs-up:before {
+  content: "\e607";
+}
+
+/* line 62, ../icon.scss */
+.icon-checkmark:before {
+  content: "\e608";
+}
+
+/* line 65, ../icon.scss */
+.icon-plus:before {
+  content: "\e615";
+}
+
+/* line 68, ../icon.scss */
+.icon-loop:before {
+  content: "\e609";
+}
+
+/* line 71, ../icon.scss */
+.icon-facebook:before {
+  content: "\e60a";
+}
+
+/* line 74, ../icon.scss */
+.icon-twitter:before {
+  content: "\e60b";
+}
+
+/* line 77, ../icon.scss */
+.icon-github:before {
+  content: "\e60d";
+}
+
+/* line 80, ../icon.scss */
+.icon-forward:before {
+  content: "\e612";
+}
+
+/* line 83, ../icon.scss */
+.icon-link:before {
+  content: "\e613";
+}
+
+/* line 86, ../icon.scss */
+.icon-ellipsis:before {
+  content: "\e614";
+}
+
+/* line 89, ../icon.scss */
+.icon-sina-weibo:before {
+  content: "\e60e";
+}
+
+/* line 1, ../sass/slide.scss */
+#live-dance-show {
+  position: relative;
+}
+
+/* line 4, ../sass/slide.scss */
+#live-dance-show .slidesjs-navigation {
+  margin-top: 3px;
+}
+
+/* line 8, ../sass/slide.scss */
+#live-dance-show .slidesjs-navigation {
+  background: url("../images/slide-nav.png") no-repeat;
+  position: absolute;
+  width: 65px;
+  height: 114px;
+  top: 40%;
+  text-indent: -9999px;
+  z-index: 10;
+}
+/* line 16, ../sass/slide.scss */
+#live-dance-show .slidesjs-navigation:hover {
+  color: #444;
+  text-indent: -9999px;
+}
+
+/* line 21, ../sass/slide.scss */
+#live-dance-show .slidesjs-next {
+  right: 0;
+  background-position: -85px -9px;
+}
+/* line 24, ../sass/slide.scss */
+#live-dance-show .slidesjs-next:hover {
+  background-position: -245px -9px;
+}
+
+/* line 28, ../sass/slide.scss */
+#live-dance-show .slidesjs-previous {
+  left: 0;
+  background-position: -10px -9px;
+}
+/* line 31, ../sass/slide.scss */
+#live-dance-show .slidesjs-previous:hover {
+  background-position: -170px -9px;
+}
+
+/* line 36, ../sass/slide.scss */
+.slidesjs-pagination {
+  position: absolute;
+  bottom: 20px;
+  z-index: 10;
+  left: 45%;
+  transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+}
+
+/* line 45, ../sass/slide.scss */
+.slidesjs-pagination li {
+  display: inline-block;
+  margin: 0 2px;
+}
+
+/* line 50, ../sass/slide.scss */
+.slidesjs-pagination li a {
+  display: block;
+  width: 13px;
+  text-decoration: none;
+  background-color: #efefef;
+  padding: 2px;
+  color: #333;
+}
+/* line 57, ../sass/slide.scss */
+.slidesjs-pagination li a.active {
+  background-color: #920807;
+  color: white;
+}
+/* line 60, ../sass/slide.scss */
+.slidesjs-pagination li a.active:hover {
+  color: white;
+}
+/* line 64, ../sass/slide.scss */
+.slidesjs-pagination li a:hover {
+  color: #920807;
+}
+
+/* line 69, ../sass/slide.scss */
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+  background-position: 0 -13px;
+}
+
+/* line 74, ../sass/slide.scss */
+.slidesjs-pagination li a:hover {
+  background-position: 0 -26px;
+}
+
+/* line 78, ../sass/slide.scss */
+.navbar {
+  overflow: hidden;
+}
+
+/* line 32, ../sass/style.scss */
+body {
+  font-size: 14px;
+  color: #333;
+  background-color: #e1e1e1;
+  font-family: monospace;
+}
+
+/* line 38, ../sass/style.scss */
+h1 {
+  font-size: 3em;
+}
+
+/* line 41, ../sass/style.scss */
+h2 {
+  font-size: 2em;
+}
+
+/* line 44, ../sass/style.scss */
+h3 {
+  font-size: 1.4em;
+}
+
+/* line 47, ../sass/style.scss */
+p {
+  line-height: 1.4em;
+}
+
+/* line 50, ../sass/style.scss */
+.pull-right {
+  float: right;
+}
+
+/* line 53, ../sass/style.scss */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* line 57, ../sass/style.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 60, ../sass/style.scss */
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+/* line 65, ../sass/style.scss */
+header {
+  margin-top: 10px;
+}
+/* line 67, ../sass/style.scss */
+header a.logo {
+  display: inline-block;
+  width: 160px;
+  height: 70px;
+  background: url("../images/logo.png") no-repeat;
+  background-size: cover;
+}
+/* line 74, ../sass/style.scss */
+header nav {
+  float: right;
+}
+/* line 76, ../sass/style.scss */
+header nav li {
+  float: left;
+}
+/* line 79, ../sass/style.scss */
+header nav ul li a {
+  text-decoration: none;
+  padding: 14px 3em;
+  display: inline-block;
+  height: 40px;
+  text-align: center;
+}
+/* line 85, ../sass/style.scss */
+header nav ul li a.active {
+  border-bottom: 4px solid #920807;
+}
+/* line 88, ../sass/style.scss */
+header nav ul li a:hover {
+  border-bottom: 4px solid #920807;
+}
+/* line 91, ../sass/style.scss */
+header nav ul li a span {
+  display: block;
+}
+/* line 93, ../sass/style.scss */
+header nav ul li a span.chinese {
+  font-size: 1.2em;
+  color: #920807;
+}
+/* line 97, ../sass/style.scss */
+header nav ul li a span.english {
+  margin-top: 3px;
+  color: #666;
+}
+
+/* line 106, ../sass/style.scss */
+.hero-img {
+  position: relative;
+  height: 580px;
+  background: url("../images/balei1.png") no-repeat bottom;
+  background-size: 100%;
+  color: white;
+}
+/* line 112, ../sass/style.scss */
+.hero-img .hero-img-layer {
+  position: absolute;
+  z-index: 1px;
+  top: 0;
+  height: 580px;
+  width: 100%;
+  background-color: #222;
+  opacity: 0.4;
+}
+/* line 121, ../sass/style.scss */
+.hero-img .slogon {
+  position: relative;
+  padding-top: 12%;
+  z-index: 3px;
+  width: 50%;
+  margin: 0 auto;
+}
+/* line 127, ../sass/style.scss */
+.hero-img .slogon p {
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #eee;
+}
+/* line 133, ../sass/style.scss */
+.hero-img .brief-introduction {
+  position: relative;
+  z-index: 3px;
+  margin-top: 10%;
+}
+/* line 137, ../sass/style.scss */
+.hero-img .brief-introduction ul li {
+  padding: 1em 2em;
+  display: inline-block;
+  font-size: 1.4em;
+  background-color: rgba(230, 230, 230, 0.7);
+}
+/* line 142, ../sass/style.scss */
+.hero-img .brief-introduction ul li .number {
+  color: #920807;
+  font-size: 2em;
+}
+
+/* line 150, ../sass/style.scss */
+.introduction {
+  background-color: white;
+  padding: 5% 0;
+  text-align: center;
+}
+/* line 154, ../sass/style.scss */
+.introduction h2 {
+  margin: 2em 0;
+}
+/* line 157, ../sass/style.scss */
+.introduction .story {
+  height: 250px;
+  float: left;
+  width: 31.333%;
+  margin: 0 1%;
+}
+/* line 162, ../sass/style.scss */
+.introduction .story .title {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 1em 0;
+}
+/* line 167, ../sass/style.scss */
+.introduction .story .number {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 100%;
+  border: 1px solid #ccc;
+  font-size: 1.5em;
+  color: white;
+}
+/* line 173, ../sass/style.scss */
+.introduction .story:nth-child(2) .number {
+  background-color: #5481AB;
+}
+/* line 176, ../sass/style.scss */
+.introduction .story:nth-child(3) .number {
+  background-color: #E89C4A;
+}
+/* line 179, ../sass/style.scss */
+.introduction .story:nth-child(4) .number {
+  background-color: #30CF8A;
+}
+/* line 182, ../sass/style.scss */
+.introduction .story:nth-child(5) .number {
+  background-color: #6D52AD;
+}
+/* line 185, ../sass/style.scss */
+.introduction .story:nth-child(6) .number {
+  background-color: #920807;
+}
+/* line 188, ../sass/style.scss */
+.introduction .story:nth-child(7) .number {
+  background-color: #5582AA;
+}
+/* line 191, ../sass/style.scss */
+.introduction .story i {
+  display: block;
+  font-size: 3em;
+  margin: 10px 0;
+  color: #920807;
+}
+
+/* line 199, ../sass/style.scss */
+.after-graduate {
+  background: white;
+  padding: 10% 0;
+  text-align: center;
+}
+/* line 203, ../sass/style.scss */
+.after-graduate h2 {
+  margin-bottom: 3%;
+}
+/* line 206, ../sass/style.scss */
+.after-graduate hr {
+  width: 40%;
+  color: #666;
+  margin: 5% auto;
+}
+/* line 211, ../sass/style.scss */
+.after-graduate .news {
+  text-align: left;
+}
+/* line 213, ../sass/style.scss */
+.after-graduate .news .each-news {
+  position: relative;
+}
+/* line 215, ../sass/style.scss */
+.after-graduate .news .each-news .left-part {
+  position: absolute;
+  width: 52%;
+  left: 0;
+}
+/* line 219, ../sass/style.scss */
+.after-graduate .news .each-news .left-part img {
+  margin-top: 8px;
+  width: 100%;
+}
+/* line 225, ../sass/style.scss */
+.after-graduate .news .each-news .content {
+  min-height: 380px;
+  margin-left: 53%;
+  padding-top: 20px;
+}
+/* line 229, ../sass/style.scss */
+.after-graduate .news .each-news .content .title {
+  font-size: 1.4em;
+}
+/* line 233, ../sass/style.scss */
+.after-graduate .news .each-news p {
+  margin: 0.5em 0;
+}
+/* line 236, ../sass/style.scss */
+.after-graduate .news .each-news li {
+  clear: both;
+  line-height: 1.6em;
+}
+/* line 240, ../sass/style.scss */
+.after-graduate .news .each-news .read-more {
+  margin-top: -8px;
+}
+
+/* line 246, ../sass/style.scss */
+.live-dance {
+  background: white;
+  padding-top: 5%;
+  text-align: center;
+}
+/* line 250, ../sass/style.scss */
+.live-dance h2 {
+  margin-bottom: 4%;
+}
+/* line 253, ../sass/style.scss */
+.live-dance .slide-item {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+/* line 258, ../sass/style.scss */
+.live-dance .slide-item p {
+  font-size: 1.2em;
+  padding: 2%;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+}
+/* line 265, ../sass/style.scss */
+.live-dance .slide1 {
+  background-image: url("../images/dance-show1.JPG");
+}
+/* line 268, ../sass/style.scss */
+.live-dance .slide2 {
+  background-image: url("../images/dance-show2.JPG");
+}
+/* line 271, ../sass/style.scss */
+.live-dance .slide3 {
+  background-image: url("../images/dance-show3.JPG");
+}
+/* line 274, ../sass/style.scss */
+.live-dance .slide4 {
+  background-image: url("../images/dance-show4.JPG");
+}
+/* line 277, ../sass/style.scss */
+.live-dance .slide5 {
+  background-image: url("../images/dance-show5.JPG");
+}
+/* line 280, ../sass/style.scss */
+.live-dance .slide6 {
+  background-image: url("../images/dance-show6.JPG");
+}
+/* line 283, ../sass/style.scss */
+.live-dance .slide7 {
+  background-image: url("../images/dance-show7.JPG");
+}
+/* line 286, ../sass/style.scss */
+.live-dance img {
+  max-width: 100%;
+}
