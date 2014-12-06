@@ -1,0 +1,42 @@
+.single-activities {
+	background: white;
+	padding: 10% 0;
+	text-align: center;
+	h2 {
+		margin-bottom: 3%;
+	}
+	.news {
+		text-align: left;
+		.each-news {
+			position: relative;
+			.left-part {
+				position: absolute;
+				width: 52%;
+				left: 0;
+				img {
+					margin-top: 8px;
+					width: 100%;
+				}
+				
+			}
+			.content {
+				min-height: 380px;
+				margin-left: 53%;
+				padding-top: 20px;
+				.title {
+					font-size: 1.4em;
+				}
+			}
+			p {
+				margin: 0.5em 0;
+			}
+			li {
+				clear: both;
+				line-height: 1.6em;
+			}
+			.read-more {
+				margin-top: -8px;
+			}
+		}
+	}
+}

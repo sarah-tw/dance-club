@@ -11,6 +11,7 @@ $dark-twitter: #5582AA;
 @import "compass/css3";
 @import "../icon";
 @import "slide";
+@import "single";
 @mixin circle($bg-color){
 	display: inline-block;
 	width: 20px;
@@ -35,6 +36,10 @@ body {
 	background-color: #e1e1e1;
 	font-family: monospace;
 }
+ a {
+ 	color: $theme-red;
+ 	text-decoration: none;
+ }
 h1 {
 	font-size: 3em;
 }
@@ -46,6 +51,12 @@ h3 {
 }
 p {
 	line-height: 1.4em;
+}
+hr {
+	width: 40%;
+	border-top: none;
+	border-bottom: 1px solid $gray;
+	margin: 5% auto;
 }
 .pull-right {
 	float: right;
@@ -155,10 +166,10 @@ header {
 		margin: 2em 0;
 	}
 	.story {
-		height: 250px;
+		height: 300px;
 		float: left;
-		width: 31.333%;
-		margin: 0 1%;
+		width: 29.333%;
+		margin: 0 2%;
 		.title {
 			font-weight: bold;
 			font-size: 1.2em;
@@ -196,53 +207,8 @@ header {
 		}
 	}
 }
-.after-graduate {
-	background: white;
-	padding: 10% 0;
-	text-align: center;
-	h2 {
-		margin-bottom: 3%;
-	}
-	hr {
-		width: 40%;
-		color: $light-gray;
-		margin: 5% auto;
-	}
-	.news {
-		text-align: left;
-		.each-news {
-			position: relative;
-			.left-part {
-				position: absolute;
-				width: 52%;
-				left: 0;
-				img {
-					margin-top: 8px;
-					width: 100%;
-				}
-				
-			}
-			.content {
-				min-height: 380px;
-				margin-left: 53%;
-				padding-top: 20px;
-				.title {
-					font-size: 1.4em;
-				}
-			}
-			p {
-				margin: 0.5em 0;
-			}
-			li {
-				clear: both;
-				line-height: 1.6em;
-			}
-			.read-more {
-				margin-top: -8px;
-			}
-		}
-	}
-}
+
+
 .live-dance {
 	background: white;
 	padding-top: 5%; 
@@ -272,18 +238,90 @@ header {
 		background-image: url("../images/dance-show3.JPG");
 	}
 	.slide4 {
+		background-image: url("../images/recruit.jpg");
+	}	
+	.slide5 {
+		background-image: url("../images/all-member.jpg");
+	}	
+	.slide6 {
 		background-image: url("../images/dance-show4.JPG");
 	}
-	.slide5 {
-		background-image: url("../images/dance-show5.JPG");
-	}
-	.slide6 {
+	.slide8 {
 		background-image: url("../images/dance-show6.JPG");
 	}					
-	.slide7 {
+	.slide9 {
 		background-image: url("../images/dance-show7.JPG");
 	}
+	.slide10 {
+		background-image: url("../images/member-list.png");
+		background-position: top;
+		p {
+			background-color: rgba(0, 0, 0, 0.8);
+			a {
+				text-decoration: underline;
+				color: white;
+			}
+		}
+	}	
 	img {
 		max-width: 100%;
+	}
+}
+
+.new-year {
+	background-color: white;
+	padding-bottom: 10%;
+	#new-year-slide {
+		width: 50%;
+		float: left;
+		img {
+			width: 100%;
+		}
+		.caption {
+			background-color: rgba(0,0,0, 0.7);
+			color: white;
+			position: absolute;
+			top: 0;
+			text-align: center;
+			padding: 8px 2%;
+			width: 96%;
+		}
+	}
+	.description {
+		width: 48%;
+		float: left;
+		margin-right: 2%;
+		text-align: left;
+	}
+}
+.about-me {
+	padding: 5% 0; 
+	text-align: center;
+	background-color: #EEF8FD;
+	.avators {
+		li {
+			display: inline-block;
+			margin: 0 2%;
+			img {
+				border: 1px solid #ccc;
+				height: 100px;
+				width: 100px;
+				border-radius: 57px;
+				padding: 6px;				
+			}			
+		}
+	}
+	.myself {
+		width: 70%;
+		margin: 20px auto;
+		h3 {
+			margin: 5% 0 3% 0;
+		}
+		p {
+			line-height: 2em;
+		}
+	}
+	.contact-me img{
+		width: 150px;
 	}
 }
