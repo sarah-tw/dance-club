@@ -341,6 +341,14 @@ header {
 	}
 	.contact-me img{
 		width: 150px;
+		border: 1px solid #ccc;
+	}
+	.contact {
+		display: inline-block;
+		margin: 0 2%;
+		p {
+			color: #555;
+		}
 	}
 }
 footer {
