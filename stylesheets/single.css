@@ -1,0 +1,69 @@
+/* line 1, ../sass/single.scss */
+.single-activities {
+  background: white;
+  padding: 5% 0;
+  text-align: center;
+}
+/* line 5, ../sass/single.scss */
+.single-activities h2 {
+  margin-bottom: 3%;
+}
+/* line 8, ../sass/single.scss */
+.single-activities .news {
+  text-align: left;
+}
+/* line 10, ../sass/single.scss */
+.single-activities .news .each-news {
+  position: relative;
+}
+/* line 12, ../sass/single.scss */
+.single-activities .news .each-news .left-part {
+  width: 50%;
+  float: left;
+  margin-right: 2%;
+}
+/* line 16, ../sass/single.scss */
+.single-activities .news .each-news .left-part img {
+  margin-top: 8px;
+  width: 100%;
+}
+/* line 22, ../sass/single.scss */
+.single-activities .news .each-news .content {
+  float: left;
+  width: 48%;
+  min-height: 380px;
+  padding-top: 20px;
+}
+/* line 27, ../sass/single.scss */
+.single-activities .news .each-news .content .title {
+  font-size: 1.4em;
+}
+/* line 31, ../sass/single.scss */
+.single-activities .news .each-news p {
+  margin: 0.5em 0;
+}
+/* line 34, ../sass/single.scss */
+.single-activities .news .each-news li {
+  clear: both;
+  line-height: 1.6em;
+}
+/* line 38, ../sass/single.scss */
+.single-activities .news .each-news .read-more {
+  margin-top: -8px;
+}
+
+@media screen and (max-width: 850px) {
+  /* line 46, ../sass/single.scss */
+  .single-activities .news .each-news .left-part, .single-activities .news .each-news .content {
+    width: 80%;
+    float: none;
+    margin: 0 auto;
+    min-height: 100px;
+  }
+}
+@media screen and (max-width: 850px) {
+  /* line 57, ../sass/single.scss */
+  .single-activities .news .each-news .left-part, .single-activities .news .each-news .content {
+    width: 100%;
+  }
+}

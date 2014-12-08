@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$font-color".
-        on line 53 of /Users/xjsi/projects/3weeks3pages/dance/sass/slide.scss
+        on line 54 of /Users/xjsi/projects/3weeks3pages/dance/sass/slide.scss
 
-48:   display: block;
-49:   width: 13px;
-50:   text-decoration: none;
-51:   background-color: #efefef;
-52:   padding: 2px;
-53:   color: $font-color;
-54:   &.active {
-55:     background-color: $theme-red;
-56:     color: white;
-57:     &:hover {
-58:       color: white;
+49:   display: block;
+50:   width: 13px;
+51:   text-decoration: none;
+52:   background-color: #efefef;
+53:   padding: 2px;
+54:   color: $font-color;
+55:   &.active {
+56:     background-color: $theme-red;
+57:     color: white;
+58:     &:hover {
+59:       color: white;
 
 Backtrace:
-/Users/xjsi/projects/3weeks3pages/dance/sass/slide.scss:53
+/Users/xjsi/projects/3weeks3pages/dance/sass/slide.scss:54
 /Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/script/tree/node.rb:50:in `perform'
 /Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:384:in `visit_prop'
@@ -93,4 +93,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$font-color\".\A         on line 53 of /Users/xjsi/projects/3weeks3pages/dance/sass/slide.scss\A \A 48:   display: block;\A 49:   width: 13px;\A 50:   text-decoration: none;\A 51:   background-color: #efefef;\A 52:   padding: 2px;\A 53:   color: $font-color;\A 54:   &.active {\A 55:     background-color: $theme-red;\A 56:     color: white;\A 57:     &:hover {\A 58:       color: white;"; }
+  content: "Error: Undefined variable: \"$font-color\".\A         on line 54 of /Users/xjsi/projects/3weeks3pages/dance/sass/slide.scss\A \A 49:   display: block;\A 50:   width: 13px;\A 51:   text-decoration: none;\A 52:   background-color: #efefef;\A 53:   padding: 2px;\A 54:   color: $font-color;\A 55:   &.active {\A 56:     background-color: $theme-red;\A 57:     color: white;\A 58:     &:hover {\A 59:       color: white;"; }

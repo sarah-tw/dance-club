@@ -45,6 +45,7 @@ h1 {
 }
 h2 {
 	font-size: 2em;
+	padding-top: 5%;
 }
 h3 {
 	font-size: 1.4em;
@@ -58,12 +59,25 @@ hr {
 	border-bottom: 1px solid $gray;
 	margin: 5% auto;
 }
+.big-screen {
+	display: block;
+}
+.small-screen {
+	display: block;
+}
+
+
 .pull-right {
 	float: right;
 }
 .container {
 	width: 80%;
 	margin: 0 auto;
+}
+@media screen and (max-width: 1000px) {
+	.container {
+		width: 90%;
+	}
 }
 .text-center {
 	text-align: center;
@@ -74,24 +88,28 @@ hr {
 	clear: both;
 }
 header {
+	height: 83px;
 	margin-top: 10px;
 	a.logo {
+		width: 20%;
 		display: inline-block;
-		width: 160px;
-		height: 70px;
-		background: url("../images/logo.png") no-repeat;
-		background-size: cover;
+		img {
+			width: 100%;
+			min-width: 160px;
+		}
 	}
 	nav {
+		width: 70%;
 		float: right;
+		margin-top: 29px;
 		li {
 			float: left;
+			width: 20%;
 		}
 		ul li a{
+			display: block;
 			text-decoration: none;
-			padding: 14px 3em;
-			display: inline-block;
-			height: 40px;
+			height: 50px;
 			text-align: center;
 			&.active {
 				border-bottom: 4px solid $theme-red;
@@ -160,10 +178,10 @@ header {
 }
 .introduction {
 	background-color: white;
-	padding: 5% 0;
+	padding-top: 5%;
 	text-align: center;
 	h2 {
-		margin: 2em 0;
+		margin-bottom: 2em;
 	}
 	.story {
 		height: 300px;
@@ -211,7 +229,6 @@ header {
 
 .live-dance {
 	background: white;
-	padding-top: 5%; 
 	text-align: center;
 	h2 {
 		margin-bottom: 4%;
@@ -325,3 +342,101 @@ header {
 		width: 150px;
 	}
 }
+footer {
+	padding: 20px;
+	color: $gray;
+	background-color: #333;
+	text-align: center;
+}
+@media screen and (max-width: 800px) {
+	.new-year .description,
+	.new-year #new-year-slide {
+		width: 100%;
+	}	
+	.new-year .slidesjs-pagination {
+		bottom: 35px;
+	}
+}
+@media screen and (max-width: 600px) {
+	h1 {
+		font-size: 2.2em;
+	}
+	.brief-introduction {
+		font-size: 12px;
+	}
+	.slidesjs-container {
+		font-size: 12px;
+	}
+	.introduction .story{
+		width: 100%;
+		float: none;
+		height: auto;
+		padding-bottom: 30px;
+	}
+	.hero-img {
+		background-size: cover;
+		height: 300px;
+	}
+	.hero-img .hero-img-layer {
+		height: 300px;
+	}
+	header {
+		text-align: center;
+	}
+	header a.logo {
+		width: 160px;
+	}
+	.hero-img .slogon {
+		width: 100%;
+		padding-top: 15%;
+	}
+	.hero-img .brief-introduction ul li {
+		padding: 2% 3%;
+	}
+	#live-dance-show .slidesjs-navigation {
+		transform: scale(0.5);
+		-webkit-transform: scale(0.5);
+		top: 30%;
+	}
+	#live-dance-show .slidesjs-pagination {
+		left: 30%;
+		transform: scale(1);
+		-webkit-transform: scale(1);
+	}
+	.about-me .myself {
+		width: 100%;
+	}
+	h2 {
+		padding-top: 40px;
+	}
+}
+@media screen and (max-width: 500px){
+	.slidesjs-navigation {
+		top: 20%;
+	}
+
+	#live-dance-show .slidesjs-pagination, 
+	.new-year .slidesjs-pagination {
+		bottom: 5px;
+		left: 0 ;		
+	}
+	.new-year .slidesjs-pagination {
+		bottom: 20px;
+	}
+	.each-news {
+		margin-top: 50px;
+	}
+
+}
+
+@media screen and (max-width: 1300px) {
+	.big-screen {
+		display:  none;
+	}
+}
+@media screen and (max-width: 600px) {
+	.small-screen {
+		display: none;
+	}
+}
+

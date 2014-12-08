@@ -1,6 +1,6 @@
 .single-activities {
 	background: white;
-	padding: 10% 0;
+	padding: 5% 0;
 	text-align: center;
 	h2 {
 		margin-bottom: 3%;
@@ -10,9 +10,9 @@
 		.each-news {
 			position: relative;
 			.left-part {
-				position: absolute;
-				width: 52%;
-				left: 0;
+				width: 50%;
+				float: left;
+				margin-right: 2%;
 				img {
 					margin-top: 8px;
 					width: 100%;
@@ -20,8 +20,9 @@
 				
 			}
 			.content {
+				float: left;
+				width: 48%;
 				min-height: 380px;
-				margin-left: 53%;
 				padding-top: 20px;
 				.title {
 					font-size: 1.4em;
@@ -37,6 +38,24 @@
 			.read-more {
 				margin-top: -8px;
 			}
+		}
+	}
+}
+@media screen and (max-width: 850px) {
+	.single-activities .news .each-news{
+		.left-part, .content {
+			width: 80%;
+			float: none;
+			margin: 0 auto;
+			min-height: 100px;
+		}
+	} 
+
+}
+@media screen and (max-width: 850px) {
+	.single-activities .news .each-news{
+		.left-part, .content {
+			width: 100%;
 		}
 	}
 }
