@@ -609,28 +609,28 @@ header nav ul li a span.english {
   color: white;
 }
 /* line 203, ../sass/style.scss */
-.introduction .story:nth-child(2) .number {
-  background-color: #5481AB;
-}
-/* line 206, ../sass/style.scss */
 .introduction .story:nth-child(3) .number {
   background-color: #E89C4A;
 }
-/* line 209, ../sass/style.scss */
+/* line 206, ../sass/style.scss */
 .introduction .story:nth-child(4) .number {
   background-color: #30CF8A;
 }
-/* line 212, ../sass/style.scss */
+/* line 209, ../sass/style.scss */
 .introduction .story:nth-child(5) .number {
   background-color: #6D52AD;
 }
-/* line 215, ../sass/style.scss */
+/* line 212, ../sass/style.scss */
 .introduction .story:nth-child(6) .number {
   background-color: #920807;
 }
-/* line 218, ../sass/style.scss */
+/* line 215, ../sass/style.scss */
 .introduction .story:nth-child(7) .number {
   background-color: #5582AA;
+}
+/* line 218, ../sass/style.scss */
+.introduction .story:nth-child(8) .number {
+  background-color: #E89C4A;
 }
 /* line 221, ../sass/style.scss */
 .introduction .story i {
