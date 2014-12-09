@@ -1,0 +1,111 @@
+/*
+Error: Undefined mixin 'transition'.
+        on line 11 of /Users/xjsi/projects/3weeks3pages/dance/sass/awesome.scss, in `transition'
+        from line 11 of /Users/xjsi/projects/3weeks3pages/dance/sass/awesome.scss
+
+6: 		position: relative;
+7: 		width: 25%;
+8: 		float: left;
+9: 		opacity: 0.7;
+10: 		overflow: hidden;
+11: 		@include transition(all 0.3s ease-in-out);
+12: 		img {
+13: 			width: 100%;
+14: 		}
+15: 		.layer {
+16: 			width: 100%;
+
+Backtrace:
+/Users/xjsi/projects/3weeks3pages/dance/sass/awesome.scss:11:in `transition'
+/Users/xjsi/projects/3weeks3pages/dance/sass/awesome.scss:11
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:338:in `block in visit_mixin'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/stack.rb:98:in `block in with_mixin'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/stack.rb:115:in `with_frame'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/stack.rb:98:in `with_mixin'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:336:in `visit_mixin'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/stack.rb:79:in `block in with_base'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/stack.rb:115:in `with_frame'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/stack.rb:79:in `with_base'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:420:in `map'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/stack.rb:79:in `block in with_base'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/stack.rb:115:in `with_frame'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/stack.rb:79:in `with_base'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:420:in `map'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/stack.rb:79:in `block in with_base'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/stack.rb:115:in `with_frame'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/stack.rb:79:in `with_base'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/root_node.rb:20:in `render'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/engine.rb:268:in `render'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/plugin/compiler.rb:491:in `update_stylesheet'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/compass-1.0.1/lib/compass/sass_compiler.rb:40:in `compile!'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/compass-1.0.1/lib/compass/commands/update_project.rb:49:in `perform'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/compass-1.0.1/lib/compass/commands/base.rb:18:in `execute'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/compass-1.0.1/lib/compass/commands/project_base.rb:19:in `execute'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/guard-compass-1.1.0/lib/guard/compass.rb:140:in `perform'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/guard-compass-1.1.0/lib/guard/compass.rb:123:in `run_on_change'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/guard-2.8.2/lib/guard/runner.rb:77:in `block in _supervise'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/guard-2.8.2/lib/guard/runner.rb:74:in `catch'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/guard-2.8.2/lib/guard/runner.rb:74:in `_supervise'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/guard-2.8.2/lib/guard/runner.rb:57:in `block (2 levels) in run_on_changes'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/guard-2.8.2/lib/guard/runner.rb:51:in `each'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/guard-2.8.2/lib/guard/runner.rb:51:in `block in run_on_changes'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/guard-2.8.2/lib/guard/runner.rb:135:in `block (3 levels) in _scoped_plugins'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/guard-2.8.2/lib/guard/runner.rb:133:in `each'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/guard-2.8.2/lib/guard/runner.rb:133:in `block (2 levels) in _scoped_plugins'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/guard-2.8.2/lib/guard/runner.rb:132:in `catch'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/guard-2.8.2/lib/guard/runner.rb:132:in `block in _scoped_plugins'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/guard-2.8.2/lib/guard/runner.rb:129:in `each'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/guard-2.8.2/lib/guard/runner.rb:129:in `_scoped_plugins'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/guard-2.8.2/lib/guard/runner.rb:48:in `run_on_changes'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/guard-2.8.2/lib/guard/setuper.rb:212:in `_process_queue'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/guard-2.8.2/lib/guard/commander.rb:34:in `start'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/guard-2.8.2/lib/guard/cli.rb:113:in `start'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/thor-0.19.1/lib/thor/command.rb:27:in `run'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/thor-0.19.1/lib/thor/invocation.rb:126:in `invoke_command'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/thor-0.19.1/lib/thor.rb:359:in `dispatch'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/thor-0.19.1/lib/thor/base.rb:440:in `start'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/guard-2.8.2/lib/guard/aruba_adapter.rb:32:in `execute'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/guard-2.8.2/lib/guard/aruba_adapter.rb:19:in `execute!'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/guard-2.8.2/bin/guard:11:in `<top (required)>'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/bin/guard:23:in `load'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/bin/guard:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined mixin 'transition'.\A         on line 11 of /Users/xjsi/projects/3weeks3pages/dance/sass/awesome.scss, in `transition'\A         from line 11 of /Users/xjsi/projects/3weeks3pages/dance/sass/awesome.scss\A \A 6: 		position: relative;\A 7: 		width: 25%;\A 8: 		float: left;\A 9: 		opacity: 0.7;\A 10: 		overflow: hidden;\A 11: 		@include transition(all 0.3s ease-in-out);\A 12: 		img {\A 13: 			width: 100%;\A 14: 		}\A 15: 		.layer {\A 16: 			width: 100%;"; }

@@ -1,3 +1,17 @@
+@mixin circle($size){
+	display: inline-block;
+	width: $size;
+	height: $size;
+	line-height: $size;
+	text-align: center;
+	border-radius: 100%;
+}
+@mixin transtion($type, $time, $effect){
+	-moz-transition: $type $time $effect;
+	-webkit-transition: $type $time $effect;
+	-o-transition: $type $time $effect;
+	transition: $type $time $effect;	
+}
 $gray: #ccc;
 $font-color: #333;
 $light-gray: #666;
@@ -12,22 +26,7 @@ $dark-twitter: #5582AA;
 @import "../icon";
 @import "slide";
 @import "single";
-@mixin circle($bg-color){
-	display: inline-block;
-	width: 20px;
-	height: 20px;
-	border-radius: 10px;
-	background-color: $bg-color;
-	margin-right: 6px;
-}
-@mixin circle($size){
-	display: inline-block;
-	width: $size;
-	height: $size;
-	line-height: $size;
-	text-align: center;
-	border-radius: 100%;
-}
+@import "awesome";
 
 
 body {
