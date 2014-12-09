@@ -1,0 +1,26 @@
+.new-year {
+	background-color: white;
+	padding-bottom: 10%;
+	#new-year-slide {
+		width: 50%;
+		float: left;
+		img {
+			width: 100%;
+		}
+		.caption {
+			background-color: rgba(0,0,0, 0.7);
+			color: white;
+			position: absolute;
+			top: 0;
+			text-align: center;
+			padding: 8px 2%;
+			width: 96%;
+		}
+	}
+	.description {
+		width: 48%;
+		float: left;
+		margin-right: 2%;
+		text-align: left;
+	}
+}

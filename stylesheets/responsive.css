@@ -1,0 +1,132 @@
+@media screen and (max-width: 800px) {
+  /* line 2, ../sass/responsive.scss */
+  .new-year .description,
+  .new-year #new-year-slide {
+    width: 100%;
+  }
+
+  /* line 6, ../sass/responsive.scss */
+  .new-year .slidesjs-pagination {
+    bottom: 35px;
+  }
+
+  /* line 9, ../sass/responsive.scss */
+  .more-awesome .each-moment {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  /* line 14, ../sass/responsive.scss */
+  h1 {
+    font-size: 2.2em;
+  }
+
+  /* line 17, ../sass/responsive.scss */
+  .brief-introduction {
+    font-size: 12px;
+  }
+
+  /* line 20, ../sass/responsive.scss */
+  .slidesjs-container {
+    font-size: 12px;
+  }
+
+  /* line 23, ../sass/responsive.scss */
+  .introduction .story {
+    width: 100%;
+    float: none;
+    height: auto;
+    padding-bottom: 30px;
+  }
+
+  /* line 29, ../sass/responsive.scss */
+  .hero-img {
+    background-size: cover;
+    height: 300px;
+  }
+
+  /* line 33, ../sass/responsive.scss */
+  .hero-img .hero-img-layer {
+    height: 300px;
+  }
+
+  /* line 36, ../sass/responsive.scss */
+  header {
+    text-align: center;
+  }
+
+  /* line 39, ../sass/responsive.scss */
+  header a.logo {
+    width: 160px;
+  }
+
+  /* line 42, ../sass/responsive.scss */
+  .hero-img .slogon {
+    width: 100%;
+    padding-top: 15%;
+  }
+
+  /* line 46, ../sass/responsive.scss */
+  .hero-img .brief-introduction ul li {
+    padding: 2% 3%;
+  }
+
+  /* line 49, ../sass/responsive.scss */
+  #live-dance-show .slidesjs-navigation {
+    transform: scale(0.5);
+    -webkit-transform: scale(0.5);
+    top: 30%;
+  }
+
+  /* line 54, ../sass/responsive.scss */
+  #live-dance-show .slidesjs-pagination {
+    left: 30%;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+
+  /* line 59, ../sass/responsive.scss */
+  .about-me .myself {
+    width: 100%;
+  }
+
+  /* line 62, ../sass/responsive.scss */
+  h2 {
+    padding-top: 40px;
+  }
+}
+@media screen and (max-width: 500px) {
+  /* line 67, ../sass/responsive.scss */
+  .slidesjs-navigation {
+    top: 20%;
+  }
+
+  /* line 71, ../sass/responsive.scss */
+  #live-dance-show .slidesjs-pagination,
+  .new-year .slidesjs-pagination {
+    bottom: 5px;
+    left: 0;
+  }
+
+  /* line 76, ../sass/responsive.scss */
+  .new-year .slidesjs-pagination {
+    bottom: 20px;
+  }
+
+  /* line 79, ../sass/responsive.scss */
+  .each-news {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  /* line 86, ../sass/responsive.scss */
+  .big-screen {
+    display: none;
+  }
+}
+@media screen and (max-width: 600px) {
+  /* line 91, ../sass/responsive.scss */
+  .small-screen {
+    display: none;
+  }
+}

@@ -1,0 +1,95 @@
+@media screen and (max-width: 800px) {
+	.new-year .description,
+	.new-year #new-year-slide {
+		width: 100%;
+	}	
+	.new-year .slidesjs-pagination {
+		bottom: 35px;
+	}
+	.more-awesome .each-moment {
+		width: 50%;
+	}
+}
+@media screen and (max-width: 600px) {
+	h1 {
+		font-size: 2.2em;
+	}
+	.brief-introduction {
+		font-size: 12px;
+	}
+	.slidesjs-container {
+		font-size: 12px;
+	}
+	.introduction .story{
+		width: 100%;
+		float: none;
+		height: auto;
+		padding-bottom: 30px;
+	}
+	.hero-img {
+		background-size: cover;
+		height: 300px;
+	}
+	.hero-img .hero-img-layer {
+		height: 300px;
+	}
+	header {
+		text-align: center;
+	}
+	header a.logo {
+		width: 160px;
+	}
+	.hero-img .slogon {
+		width: 100%;
+		padding-top: 15%;
+	}
+	.hero-img .brief-introduction ul li {
+		padding: 2% 3%;
+	}
+	#live-dance-show .slidesjs-navigation {
+		transform: scale(0.5);
+		-webkit-transform: scale(0.5);
+		top: 30%;
+	}
+	#live-dance-show .slidesjs-pagination {
+		left: 30%;
+		transform: scale(1);
+		-webkit-transform: scale(1);
+	}
+	.about-me .myself {
+		width: 100%;
+	}
+	h2 {
+		padding-top: 40px;
+	}
+}
+@media screen and (max-width: 500px){
+	.slidesjs-navigation {
+		top: 20%;
+	}
+
+	#live-dance-show .slidesjs-pagination, 
+	.new-year .slidesjs-pagination {
+		bottom: 5px;
+		left: 0 ;		
+	}
+	.new-year .slidesjs-pagination {
+		bottom: 20px;
+	}
+	.each-news {
+		margin-top: 50px;
+	}
+
+}
+
+@media screen and (max-width: 1300px) {
+	.big-screen {
+		display:  none;
+	}
+}
+@media screen and (max-width: 600px) {
+	.small-screen {
+		display: none;
+	}
+}
+

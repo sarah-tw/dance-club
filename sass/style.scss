@@ -27,7 +27,7 @@ $dark-twitter: #5582AA;
 @import "slide";
 @import "single";
 @import "awesome";
-
+@import "new-year";
 
 body {
 	font-size: 14px;
@@ -285,32 +285,7 @@ header {
 	}
 }
 
-.new-year {
-	background-color: white;
-	padding-bottom: 10%;
-	#new-year-slide {
-		width: 50%;
-		float: left;
-		img {
-			width: 100%;
-		}
-		.caption {
-			background-color: rgba(0,0,0, 0.7);
-			color: white;
-			position: absolute;
-			top: 0;
-			text-align: center;
-			padding: 8px 2%;
-			width: 96%;
-		}
-	}
-	.description {
-		width: 48%;
-		float: left;
-		margin-right: 2%;
-		text-align: left;
-	}
-}
+
 .about-me {
 	padding: 5% 0; 
 	text-align: center;
@@ -363,98 +338,5 @@ footer {
 	background-color: #333;
 	text-align: center;
 }
-@media screen and (max-width: 800px) {
-	.new-year .description,
-	.new-year #new-year-slide {
-		width: 100%;
-	}	
-	.new-year .slidesjs-pagination {
-		bottom: 35px;
-	}
-	.more-awesome .each-moment {
-		width: 50%;
-	}
-}
-@media screen and (max-width: 600px) {
-	h1 {
-		font-size: 2.2em;
-	}
-	.brief-introduction {
-		font-size: 12px;
-	}
-	.slidesjs-container {
-		font-size: 12px;
-	}
-	.introduction .story{
-		width: 100%;
-		float: none;
-		height: auto;
-		padding-bottom: 30px;
-	}
-	.hero-img {
-		background-size: cover;
-		height: 300px;
-	}
-	.hero-img .hero-img-layer {
-		height: 300px;
-	}
-	header {
-		text-align: center;
-	}
-	header a.logo {
-		width: 160px;
-	}
-	.hero-img .slogon {
-		width: 100%;
-		padding-top: 15%;
-	}
-	.hero-img .brief-introduction ul li {
-		padding: 2% 3%;
-	}
-	#live-dance-show .slidesjs-navigation {
-		transform: scale(0.5);
-		-webkit-transform: scale(0.5);
-		top: 30%;
-	}
-	#live-dance-show .slidesjs-pagination {
-		left: 30%;
-		transform: scale(1);
-		-webkit-transform: scale(1);
-	}
-	.about-me .myself {
-		width: 100%;
-	}
-	h2 {
-		padding-top: 40px;
-	}
-}
-@media screen and (max-width: 500px){
-	.slidesjs-navigation {
-		top: 20%;
-	}
 
-	#live-dance-show .slidesjs-pagination, 
-	.new-year .slidesjs-pagination {
-		bottom: 5px;
-		left: 0 ;		
-	}
-	.new-year .slidesjs-pagination {
-		bottom: 20px;
-	}
-	.each-news {
-		margin-top: 50px;
-	}
-
-}
-
-@media screen and (max-width: 1300px) {
-	.big-screen {
-		display:  none;
-	}
-}
-@media screen and (max-width: 600px) {
-	.small-screen {
-		display: none;
-	}
-}
-
+@import "responsive";
