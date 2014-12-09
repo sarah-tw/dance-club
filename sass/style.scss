@@ -199,10 +199,7 @@ header {
 			border: 1px solid $gray;
 			font-size: 1.5em;
 			color: white;
-		}
-		&:nth-child(2) .number {
-			background-color: $twitter;
-		}		
+		}	
 		&:nth-child(3) .number {
 			background-color: $theme-yellow;
 		}
@@ -217,6 +214,9 @@ header {
 		}		
 		&:nth-child(7) .number {
 			background-color: $dark-twitter;
+		}
+		&:nth-child(8) .number {
+			background-color: $twitter;
 		}
 		i {
 			display: block;
