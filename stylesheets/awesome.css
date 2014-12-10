@@ -1,28 +1,39 @@
 /*
 Error: Undefined mixin 'transition'.
-        on line 10 of /Users/xjsi/projects/3weeks3pages/dance/sass/awesome.scss, in `transition'
-        from line 10 of /Users/xjsi/projects/3weeks3pages/dance/sass/awesome.scss
+        on line 15 of /Users/xjsi/projects/3weeks3pages/dance/sass/awesome.scss, in `transition'
+        from line 15 of /Users/xjsi/projects/3weeks3pages/dance/sass/awesome.scss
 
-5: 		position: relative;
-6: 		width: 25%;
-7: 		float: left;
-8: 		opacity: 0.7;
-9: 		overflow: hidden;
-10: 		@include transition(all 0.3s ease-in-out);
-11: 		img {
-12: 			width: 100%;
-13: 		}
-14: 		.layer {
-15: 			width: 100%;
+10: 			content: "";
+11: 			display: block;
+12: 			background: rgb(51, 51, 51);
+13: 			opacity: 0.3;
+14: 			position: absolute;
+15: 			@include transition(all 0.2s ease-out);
+16: 			top: 0;
+17: 			left: 0;
+18: 			right: 0;
+19: 			bottom: 0;
+20: 		}
 
 Backtrace:
-/Users/xjsi/projects/3weeks3pages/dance/sass/awesome.scss:10:in `transition'
-/Users/xjsi/projects/3weeks3pages/dance/sass/awesome.scss:10
+/Users/xjsi/projects/3weeks3pages/dance/sass/awesome.scss:15:in `transition'
+/Users/xjsi/projects/3weeks3pages/dance/sass/awesome.scss:15
 /Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:338:in `block in visit_mixin'
 /Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/stack.rb:98:in `block in with_mixin'
 /Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/stack.rb:115:in `with_frame'
 /Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/stack.rb:98:in `with_mixin'
 /Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:336:in `visit_mixin'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/stack.rb:79:in `block in with_base'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/stack.rb:115:in `with_frame'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/stack.rb:79:in `with_base'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:420:in `block (2 levels) in visit_rule'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:420:in `map'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:420:in `block in visit_rule'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:418:in `visit_rule'
 /Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/base.rb:36:in `visit'
 /Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
 /Users/xjsi/.rbenv/versions/1.9.3-p484/lib/ruby/gems/1.9.1/gems/sass-3.4.8/lib/sass/stack.rb:79:in `block in with_base'
@@ -108,4 +119,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'transition'.\A         on line 10 of /Users/xjsi/projects/3weeks3pages/dance/sass/awesome.scss, in `transition'\A         from line 10 of /Users/xjsi/projects/3weeks3pages/dance/sass/awesome.scss\A \A 5: 		position: relative;\A 6: 		width: 25%;\A 7: 		float: left;\A 8: 		opacity: 0.7;\A 9: 		overflow: hidden;\A 10: 		@include transition(all 0.3s ease-in-out);\A 11: 		img {\A 12: 			width: 100%;\A 13: 		}\A 14: 		.layer {\A 15: 			width: 100%;"; }
+  content: "Error: Undefined mixin 'transition'.\A         on line 15 of /Users/xjsi/projects/3weeks3pages/dance/sass/awesome.scss, in `transition'\A         from line 15 of /Users/xjsi/projects/3weeks3pages/dance/sass/awesome.scss\A \A 10: 			content: \"\";\A 11: 			display: block;\A 12: 			background: rgb(51, 51, 51);\A 13: 			opacity: 0.3;\A 14: 			position: absolute;\A 15: 			@include transition(all 0.2s ease-out);\A 16: 			top: 0;\A 17: 			left: 0;\A 18: 			right: 0;\A 19: 			bottom: 0;\A 20: 		}"; }
