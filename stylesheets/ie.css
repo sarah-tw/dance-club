@@ -1,0 +1,30 @@
+/* line 2, ../sass/ie.scss */
+.old-ie .hero-img .brief-introduction ul li {
+  background-color: #ccc;
+}
+/* line 5, ../sass/ie.scss */
+.old-ie .live-dance .slide-item p,
+.old-ie .more-awesome .each-moment p,
+.old-ie .new-year #new-year-slide .caption {
+  background-color: #666;
+}
+/* line 10, ../sass/ie.scss */
+.old-ie .hero-img-layer {
+  display: none;
+}
+/* line 13, ../sass/ie.scss */
+.old-ie h1 {
+  color: #920807;
+}
+/* line 16, ../sass/ie.scss */
+.old-ie .hero-img .slogon p {
+  color: #920807;
+}
+/* line 19, ../sass/ie.scss */
+.old-ie .hero-img {
+  background-position: top;
+}
+/* line 22, ../sass/ie.scss */
+.old-ie .introduction .story .number {
+  background-color: #920807;
+}
