@@ -295,11 +295,13 @@ header {
 			display: inline-block;
 			margin: 0 2%;
 			img {
+				@include circle(100px);
 				border: 1px solid #ccc;
-				height: 100px;
-				width: 100px;
-				border-radius: 57px;
-				padding: 6px;				
+				padding: 3px;	
+				@include transition(all 0.3s ease-in-out);
+				&:hover {
+					transform: scale(1.5);
+				}			
 			}			
 		}
 	}
@@ -324,6 +326,41 @@ header {
 			color: #555;
 		}
 	}
+}
+.interview {
+	text-align: center;
+	background-color: white;
+	padding: 5% 0;
+	.member {
+		font-size: 16px;
+		i.icon-quotes-left {
+			color: #ccc;
+			font-size: 1.4em;
+			display: block;
+			margin-bottom: 14px;
+		}
+		.title {
+			color: #666;
+			margin: 6px 0;
+		}
+		img {
+			@include circle(100px);
+			border: 1px solid #ccc;
+			padding: 3px;	
+			margin-bottom: 20px;
+			@include transition(all 0.3s ease-in-out);
+			&:hover {
+				transform: scale(1.5);
+			}
+		}
+		hr {
+			width: 2%;
+			margin: 24px auto;
+			border-color: #ccc;
+			border-top: none;
+		}
+	}
+
 }
 .special-thanks {
 	background: $theme-red;

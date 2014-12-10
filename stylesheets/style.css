@@ -810,41 +810,102 @@ header nav ul li a span.english {
 }
 /* line 297, ../sass/style.scss */
 .about-me .avators li img {
-  border: 1px solid #ccc;
-  height: 100px;
+  display: inline-block;
   width: 100px;
-  border-radius: 57px;
-  padding: 6px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  border-radius: 100%;
+  border: 1px solid #ccc;
+  padding: 3px;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
-/* line 306, ../sass/style.scss */
+/* line 302, ../sass/style.scss */
+.about-me .avators li img:hover {
+  transform: scale(1.5);
+}
+/* line 308, ../sass/style.scss */
 .about-me .myself {
   width: 70%;
   margin: 20px auto;
 }
-/* line 309, ../sass/style.scss */
+/* line 311, ../sass/style.scss */
 .about-me .myself h3 {
   margin: 5% 0 3% 0;
 }
-/* line 312, ../sass/style.scss */
+/* line 314, ../sass/style.scss */
 .about-me .myself p {
   line-height: 2em;
 }
-/* line 316, ../sass/style.scss */
+/* line 318, ../sass/style.scss */
 .about-me .contact-me img {
   width: 150px;
   border: 1px solid #ccc;
 }
-/* line 320, ../sass/style.scss */
+/* line 322, ../sass/style.scss */
 .about-me .contact {
   display: inline-block;
   margin: 0 2%;
 }
-/* line 323, ../sass/style.scss */
+/* line 325, ../sass/style.scss */
 .about-me .contact p {
   color: #555;
 }
 
-/* line 328, ../sass/style.scss */
+/* line 330, ../sass/style.scss */
+.interview {
+  text-align: center;
+  background-color: white;
+  padding: 5% 0;
+}
+/* line 334, ../sass/style.scss */
+.interview .member {
+  font-size: 16px;
+}
+/* line 336, ../sass/style.scss */
+.interview .member i.icon-quotes-left {
+  color: #ccc;
+  font-size: 1.4em;
+  display: block;
+  margin-bottom: 14px;
+}
+/* line 342, ../sass/style.scss */
+.interview .member .title {
+  color: #666;
+  margin: 6px 0;
+}
+/* line 346, ../sass/style.scss */
+.interview .member img {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  border-radius: 100%;
+  border: 1px solid #ccc;
+  padding: 3px;
+  margin-bottom: 20px;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+/* line 352, ../sass/style.scss */
+.interview .member img:hover {
+  transform: scale(1.5);
+}
+/* line 356, ../sass/style.scss */
+.interview .member hr {
+  width: 2%;
+  margin: 24px auto;
+  border-color: #ccc;
+  border-top: none;
+}
+
+/* line 365, ../sass/style.scss */
 .special-thanks {
   background: #920807;
   color: white;
@@ -853,7 +914,7 @@ header nav ul li a span.english {
   font-size: 1.8em;
 }
 
-/* line 335, ../sass/style.scss */
+/* line 372, ../sass/style.scss */
 footer {
   padding: 20px;
   color: #ccc;
