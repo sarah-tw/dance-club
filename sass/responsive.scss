@@ -46,10 +46,8 @@
 	.hero-img .brief-introduction ul li {
 		padding: 2% 3%;
 	}
-	#live-dance-show .slidesjs-navigation {
-		transform: scale(0.5);
-		-webkit-transform: scale(0.5);
-		top: 30%;
+	.slidesjs-navigation {
+		display: none;
 	}
 	#live-dance-show .slidesjs-pagination {
 		left: 30%;

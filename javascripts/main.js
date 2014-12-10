@@ -3,7 +3,7 @@ $(document).ready(function(){
         width: 1000,
         height: 666,
         play: {
-        	auto: true,
+        	auto: false,
         	pauseOnHover: true
         }
     });
