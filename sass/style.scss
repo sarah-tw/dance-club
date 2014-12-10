@@ -139,19 +139,22 @@ header {
 	background: url("../images/balei1.jpg") no-repeat bottom;
 	background-size: 100%;
 	color: white;
-	.hero-img-layer {
-		position: absolute;
-		z-index: 1px;
-		top: 0;
-		height: 580px;
-		width: 100%;
-		background-color: #222;
+	&::after {
+		content: "";
+		display: block;
+		background: #222;
 		opacity: 0.4;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
 	}
+
 	.slogon {
 		position: relative;
 		padding-top: 12%;
-		z-index: 3px;
+		z-index: 10;
 		width: 50%;
 		margin: 0 auto;
 		p {
@@ -162,7 +165,7 @@ header {
 	}
 	.brief-introduction {
 		position: relative;
-		z-index: 3px;
+		z-index: 3;
 		margin-top: 10%;
 		ul li {
 			padding: 1em 2em;
