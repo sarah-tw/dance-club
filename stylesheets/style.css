@@ -948,8 +948,12 @@ header nav ul li a span.english {
   border-color: #ccc;
   border-top: none;
 }
+/* line 366, ../sass/style.scss */
+.interview .member p {
+  margin-bottom: 5px;
+}
 
-/* line 369, ../sass/style.scss */
+/* line 372, ../sass/style.scss */
 .special-thanks {
   background: #920807;
   color: white;
@@ -958,7 +962,7 @@ header nav ul li a span.english {
   font-size: 1.8em;
 }
 
-/* line 376, ../sass/style.scss */
+/* line 379, ../sass/style.scss */
 footer {
   padding: 20px;
   color: #ccc;
